@@ -8,3 +8,4 @@ Google Colab Notebooks for installing Data Science Tools - MySQL Hadoop Hive Hba
 6. Install Spark, use SparkSQL, SQLContext, HiveContext [Spark SQL Hive](https://github.com/prithwis/KKolab/blob/main/KK_C1_SparkSQL_SQLContext_HiveContext.ipynb)
 7. Install MongoDB in local VM, Run basic CRUD operations [MongoDB getting started](https://github.com/prithwis/KKolab/blob/main/KK_D1_MongoDB_Local_CRUD_operations.ipynb)
 8. Access MongoDB on a remote site, load bulk data, complex queries [MongoDB Remote Complex queries](https://github.com/prithwis/KKolab/blob/main/KK_D2_MongoDB_Remote_Complex_Queries.ipynb)
+9. Install MongoDB, Spark on local VM and access MongoDB from Spark [MongoDB Spark](https://github.com/prithwis/KKolab/blob/main/KK_D3_MongoDB_Spark.ipynb)
