@@ -1,5 +1,14 @@
 # KKolab
 Google Colab Notebooks for installing Data Science Tools - MySQL Hadoop Hive Hbase Spark MongoDB Cassandra <br>
+
+Students of Data Science need to install or have access to a range of complex software. Most of these software run on Linux and this means that students have to either reconfigure their Windows machines to have access to Linux VMs. Even then, installation of these softwares proves difficult because of differences in machine configuration, different home directories, differing paths and many other complications. <br>
+
+To avoid wasting time in sorting out these myriad installation challenges, students at Praxis Business School, are encouraged to work on Google Colab. While Colab was designed to be a hosted version of Jupyter Notebook, it is in reality a very powerful Ubuntu VM whose underlying shell can be accessed by prefacing commands with ! <br>
+
+Using this strategy, it is possible to install a whole range of software on the underlying VM and use it for academic and pedagogical purposes. Since the VM is not persistent, the installion needs to be done each time the Colab notebook is started. However data and configuration files can be persistently stored on the users Google Drive. This drive can be mounted in the VM and can be used. The biggest advantage of using this strategy is that all dependencies are taken care of within the notebook cells itself <br>
+
+The following notebooks demonstrate the installation and usage of different software. They should work out-of-the-box. The only change that might be necessary is the version number of the download file and the corresponding change in name directory, the value of the $HOME environment variable and the contents of the $PATH <br>
+
 1. Install MySQL in Colab VM and execute SQL statements [MySQL Local Shell Pandas](https://github.com/prithwis/KKolab/blob/main/KK_A1_MySQL_Local_Shell_Pandas.ipynb)
 2. Connect to a remote MySQL server and execute SQL statements [MySQL Remote Shell Pandas](https://github.com/prithwis/KKolab/blob/main/KK_A2_MySQL_Remote_Shell_Pandas.ipynb)
 3. Install Hadoop in VM, Run Wordcount program : [Hadoop Wordcount](https://github.com/prithwis/KKolab/blob/main/KK_B1_Hadoop_WordCount.ipynb)
