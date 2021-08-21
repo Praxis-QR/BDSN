@@ -1,6 +1,7 @@
 # KKolab
+## Why Google Colab
 
-Students of Data Science need to install or have access to a range of complex software. Most of these software run on Linux and this means that students have to either reconfigure their Windows machines to have access to Linux VMs. Even then, installation of these softwares proves difficult because of differences in machine configuration, different home directories, differing paths and many other complications. <br>
+Students of Data Science need to install or have access to a range of complex software. Most of these software run on Linux and this means that students have to either reconfigure their Windows machines to have access to Linux VMs or get a Linux machine. Even then, installation of these softwares proves difficult because of differences in machine configuration, different home directories, differing paths and many other complications. <br>
 
 To avoid wasting time in sorting out these myriad installation challenges, students at Praxis Business School, are encouraged to work on Google Colab. While Colab was designed to be a hosted version of Jupyter Notebook, it is in reality a very powerful Ubuntu VM whose underlying shell can be accessed by prefacing commands with ! <br>
 
