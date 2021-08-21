@@ -1,5 +1,4 @@
 # KKolab
-Google Colab Notebooks for installing Data Science Tools - MySQL Hadoop Hive Hbase Spark MongoDB Cassandra <br>
 
 Students of Data Science need to install or have access to a range of complex software. Most of these software run on Linux and this means that students have to either reconfigure their Windows machines to have access to Linux VMs. Even then, installation of these softwares proves difficult because of differences in machine configuration, different home directories, differing paths and many other complications. <br>
 
