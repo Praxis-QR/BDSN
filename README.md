@@ -1,4 +1,3 @@
-# KKolab
 ## Why Google Colab
 
 Students of Data Science need to install or have access to a range of complex software. Most of these software run on Linux and this means that students have to either reconfigure their Windows machines to have access to Linux VMs or get a Linux machine. Even then, installation of these softwares proves difficult because of differences in machine configuration, different home directories, differing paths and many other complications. <br>
