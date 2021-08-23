@@ -1,6 +1,6 @@
 ![alt text](https://4.bp.blogspot.com/-gbL5nZDkpFQ/XScFYwoTEII/AAAAAAAAAGY/CcVb_HDLwvs2Brv5T4vSsUcz7O4r2Q79ACK4BGAYYCw/s1600/kk3-header00-beta.png)<br>
 [Praxis Business School](https://praxis.ac.in)<br>
-## Google Colab as an Ubuntu VM platform
+## Big Data & NoSQL with Google Colab
 
 Students of Data Science need to install or have access to a range of complex software. Most of these softwares run on Linux. This means that students have to either reconfigure their Windows machines to run Linux VMs with Dockers, WSL etc or get a separate Linux machine. Even then, installation of these softwares proves difficult because of differences in machine configuration, different home directories, differing paths and many other complications. <br>
 
