@@ -4,7 +4,7 @@
 
 Students of Data Science need to install or have access to a range of complex software. Most of these softwares run on Linux. This means that students have to either reconfigure their Windows machines to run Linux VMs with Dockers, WSL etc or get a separate Linux machine. Even then, installation of these softwares proves difficult because of differences in machine configuration, different home directories, differing paths and many other complications. <br>
 
-To avoid wasting time in sorting out these myriad installation challenges, students at [Praxis Business School](https://praxis.ac.in/Programs/data-science-course-program/) are encouraged to work on Google Colab. While Colab was designed to be a hosted version of Jupyter Notebook and run Python programs, it is in reality a very powerful Ubuntu VM whose underlying shell and OS can be accessed by prefixing commands with '__!__' <br>
+To avoid wasting time in sorting out these myriad installation challenges, students at [Praxis Business School](https://praxis.ac.in) are encouraged to work on Google Colab. While Colab was designed to be a hosted version of Jupyter Notebook and run Python programs, it is in reality a very powerful Ubuntu VM whose underlying shell and OS can be accessed by prefixing commands with '__!__' <br>
 
 Using this strategy, it is possible to install and use any software in the terminal mode on the underlying VM and use it for academic and pedagogical purposes. Obviously production grade installations are not recommended. Since the VM is not persistent, the installion needs to be done each time the Colab notebook is started. However data and configuration files can be persistently stored on the users Google Drive that can be mounted in the VM and be used with read-write access. The biggest advantage of using this strategy is that all dependencies are taken care of within the notebook cells itself. _Web based GUI frontends can be accessed with tunnels as shown in the Spark Wordcount example_ <br>
 
@@ -26,4 +26,4 @@ The following notebook URLs demonstrate and serve as templates for Colab Noteboo
 In certain cases, passwords and other user credentials need to be supplied. While normal users may hardcode this into the notebook as a variable, a public notebook -- like the ones that are stored here -- cannot have them hardwired and visible. Hence in these cases, we have taken the strategy of storing the credentials as .py files in Google Drive. During usage, these Google Drive is mounted, the file copied into the VM and then the variables are _imported_. <br> <br>
 
 
-[Data Science @ Praxis Business School](https://praxis.ac.in/Programs/data-science-course-program/)<br>
+[Data Science @ Praxis Business School](https://praxis.ac.in)<br>
