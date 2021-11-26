@@ -1,0 +1,5 @@
+DeptID,DeptName,ManagerID,Location
+10,Corporate,299034,Calcutta
+20,Sales,239456,Calcutta
+30,Accounts,822134,Calcutta
+40,Production,349870,Bombay
