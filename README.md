@@ -22,7 +22,7 @@ The following notebook URLs demonstrate and serve as templates for Colab Noteboo
 10. Access MongoDB on a remote site, load bulk data, complex queries [MongoDB Remote Complex queries](https://github.com/prithwis/KKolab/blob/main/KK_D2_MongoDB_Remote_Complex_Queries.ipynb)
 11. Install MongoDB, Spark on local VM and access MongoDB from Spark [MongoDB Spark](https://github.com/prithwis/KKolab/blob/main/KK_D3_MongoDB_Spark.ipynb)
 12. Install Cassandra, Access from Shell and Python [Cassandra Getting Started](https://github.com/prithwis/KKolab/blob/main/KK_E1_Cassandra_Getting_Started.ipynb)
-13. Build a [Machine Learning Pipeline](https://github.com/Praxis-QR/BDSN/blob/main/ML_Pipeline_2_Diabetes_Prediction.ipynb) with Spark and Python
+
 
 ## Password matters
 In certain cases, passwords and other user credentials need to be supplied. While normal users may hardcode this into the notebook as a variable, a public notebook -- like the ones that are stored here -- cannot have them hardwired and visible. Hence in these cases, we have taken the strategy of storing the credentials as .py files in Google Drive. During usage, these Google Drive is mounted, the file copied into the VM and then the variables are _imported_. <br> <br>
