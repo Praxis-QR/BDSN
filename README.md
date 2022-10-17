@@ -22,6 +22,9 @@ The following notebook URLs demonstrate and serve as templates for Colab Noteboo
 10. Access MongoDB on a remote site, load bulk data, complex queries [MongoDB Remote Complex queries](https://github.com/prithwis/KKolab/blob/main/KK_D2_MongoDB_Remote_Complex_Queries.ipynb)
 11. Install MongoDB, Spark on local VM and access MongoDB from Spark [MongoDB Spark](https://github.com/prithwis/KKolab/blob/main/KK_D3_MongoDB_Spark.ipynb)
 12. Install Cassandra, Access from Shell and Python [Cassandra Getting Started](https://github.com/prithwis/KKolab/blob/main/KK_E1_Cassandra_Getting_Started.ipynb)
+13. Access Cassandra as remote service from Datastax from Python. [Cassandra_DataStax_Python](https://github.com/Praxis-QR/BDSN/blob/main/Cassandra_DataStax_Python.ipynb)
+14. Build ML Pipelines with Spark for Customer Conversion. [ML_Pipeline_1_Customer_Conversion](https://github.com/Praxis-QR/BDSN/blob/main/ML_Pipeline_1_Customer_Conversion.ipynb)
+15. Build Reusable ML Pipelines with for Diabetes Prediction using multiple ML algorithms. [ML_Pipeline_2_Diabetes_Prediction](https://github.com/Praxis-QR/BDSN/blob/main/ML_Pipeline_2_Diabetes_Prediction.ipynb)
 
 
 ## Password matters
