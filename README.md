@@ -24,7 +24,7 @@ The following notebook URLs demonstrate and serve as templates for Colab Noteboo
 12. Install Cassandra, Access from Shell and Python [Cassandra Getting Started](https://github.com/prithwis/KKolab/blob/main/KK_E1_Cassandra_Getting_Started.ipynb)
 13. Access Cassandra as remote service from Datastax from Python. [Cassandra_DataStax_Python](https://github.com/Praxis-QR/BDSN/blob/main/Cassandra_DataStax_Python.ipynb)
 14. Build ML Pipelines with Spark for Customer Conversion. [ML_Pipeline_1_Customer_Conversion](https://github.com/Praxis-QR/BDSN/blob/main/ML_Pipeline_1_Customer_Conversion.ipynb)
-15. Build Reusable ML Pipelines with for Diabetes Prediction using multiple ML algorithms. [ML_Pipeline_2_Diabetes_Prediction](https://github.com/Praxis-QR/BDSN/blob/main/ML_Pipeline_2_Diabetes_Prediction.ipynb)
+15. Build Reusable ML Pipelines with for Diabetes Prediction using multiple ML algorithms. [ML_Pipeline_2_Diabetes_Prediction](https://github.com/Praxis-QR/BDSN/blob/main/ML_Pipeline_2_Diabetes_Prediction.ipynb)<br><br>
 ***
 Examples of deploying ML models using Google Colab are available in the [Praxis DEMD repository](https://github.com/Praxis-QR/DEMD). This includes the use of [Python Flask WebApps](https://github.com/Praxis-QR/DEMD/blob/main/WebApps_V2_1_in_Colab.ipynb) that make ML models accessible through a public website.
 
