@@ -25,7 +25,8 @@ The following notebook URLs demonstrate and serve as templates for Colab Noteboo
 13. Access Cassandra as remote service from Datastax from Python. [Cassandra_DataStax_Python](https://github.com/Praxis-QR/BDSN/blob/main/Cassandra_DataStax_Python.ipynb)
 14. Build ML Pipelines with Spark for Customer Conversion. [ML_Pipeline_1_Customer_Conversion](https://github.com/Praxis-QR/BDSN/blob/main/ML_Pipeline_1_Customer_Conversion.ipynb)
 15. Build Reusable ML Pipelines with for Diabetes Prediction using multiple ML algorithms. [ML_Pipeline_2_Diabetes_Prediction](https://github.com/Praxis-QR/BDSN/blob/main/ML_Pipeline_2_Diabetes_Prediction.ipynb)
-
+***
+Examples of deploying ML models using Google Colab are available in the [Praxis DEMD repository](https://github.com/Praxis-QR/DEMD). This includes the use of [Python Flask WebApps](https://github.com/Praxis-QR/DEMD/blob/main/WebApps_V2_1_in_Colab.ipynb) that make ML models accessible through a public website.
 
 ## Password matters
 In certain cases, passwords and other user credentials need to be supplied. While normal users may hardcode this into the notebook as a variable, a public notebook -- like the ones that are stored here -- cannot have them hardwired and visible. Hence in these cases, we have taken the strategy of storing the credentials as .py files in Google Drive. During usage, these Google Drive is mounted, the file copied into the VM and then the variables are _imported_. <br> <br>
