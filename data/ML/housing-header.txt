@@ -1,0 +1,1 @@
+median house value, median income, housing median age, total rooms, total bedrooms, population, households, latitude, longitude
