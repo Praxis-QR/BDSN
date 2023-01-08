@@ -1,0 +1,13 @@
+EmpID,LastName,FirstName,JobDesc,JoinDate,Salary,Comm,DeptID
+742866,Bacchan,Amitabh,Executive,2003-03-10,50000,0.1,10
+349870,Mukherjee,Rani,Manager,2005-05-04,25000,0.06,40
+865477,Dikshit,Madhuri,Clerk,2002-04-04,10000,0.02,20
+239456,Khan,Shahrukh,Manager,2004-01-03,30000,0.07,20
+897889,Sehwag,Virender,Cus_Rep,2005-01-02,15000,0.05,20
+123980,Dhoni,Mahender,Clerk,2004-10-09,9000,0.02,40
+822134,Dravid,Rahul,Sr Manager,2000-06-04,40000,0.08,30
+997445,Dalmia,Jagmohan,Clerk,2001-07-01,12000,0.02,30
+989007,Ganguly,Sourav,Cus_Rep,2002-01-01,20000,0.03,40
+299034,Ganesan,Rekha,Director,2002-10-10,60000,0.11,10
+546223,Karthikeyan,Narayan,Secretary,2005-12-04,40000,0.09,10
+223112,Mirza,Sania,Cus_Rep,2001-11-19,25000,0.04,30
