@@ -1,5 +1,5 @@
-![alt text](https://4.bp.blogspot.com/-gbL5nZDkpFQ/XScFYwoTEII/AAAAAAAAAGY/CcVb_HDLwvs2Brv5T4vSsUcz7O4r2Q79ACK4BGAYYCw/s1600/kk3-header00-beta.png)<br>
-[Praxis Business School](https://praxis.ac.in)<br>
+![alt text](https://github.com/Praxis-QR/RDWH/raw/main/images/YantraJaalBanner.png)<br>
+[Yantrajaal](https://www.yantrajaal.com) by [Prithwis Mukerjee](http://www.linkedin.com/in/prithwis)<br>
 ## Big Data with Spark & NoSQL in Google Colab
 
 Students of Data Science need to install or have access to a range of complex software. Most of these softwares run on Linux. This means that students have to either reconfigure their Windows machines to run Linux VMs with Dockers, WSL etc or get a separate Linux machine. Even then, installation of these softwares proves difficult because of differences in machine configuration, different home directories, differing paths and many other complications. <br>
@@ -10,7 +10,7 @@ Using this strategy, it is possible to install and use any software in the termi
 ![tools](https://raw.githubusercontent.com/Praxis-QR/BDSN/main/images/TechLandScape.png)<br><br>
 The following notebook URLs demonstrate and serve as templates for Colab Notebooks for the installation and usage of different software. They should work out-of-the-box. After opening the URL, use ![button](https://camo.githubusercontent.com/52feade06f2fecbf006889a904d221e6a730c194/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667) button to open a safe, editable and executable copy of the codebase in Google Colab. The only change that might be necessary is the version number of the download file and the corresponding change in names of directories, the values of the $HOME environment variables and the contents of the $PATH <br>
 The Colab notebooks, python codes and datasets in this repository are used to teach the course on [BigData Spark NoSQL](https://docs.google.com/document/d/1Kvc-pE38TbJaROpflrsI7oQ4ac0TCatg6oq7ddhtiCE/edit?usp=sharing) at [Praxis Business School](https://praxis.ac.in/). Some of the more interesting programs are listed below. <br>
-1. Install MySQL in Colab VM and execute SQL statements [MySQL Local Shell Pandas](https://github.com/prithwis/KKolab/blob/main/KK_A1_MySQL_Local_Shell_Pandas.ipynb)
+1. Install MySQL in Colab VM and execute SQL statements [MySQL Local Shell Pandas](https://github.com/Praxis-QR/RDWH/blob/main/RDWH_MySQL_Local_Shell_Pandas.ipynb)
 2. Connect to a remote MySQL server and execute SQL statements [MySQL Remote Shell Pandas](https://github.com/prithwis/KKolab/blob/main/KK_A2_MySQL_Remote_Shell_Pandas.ipynb)
 3. Install Hadoop in VM, Run Wordcount program : [Hadoop Wordcount](https://github.com/prithwis/KKolab/blob/main/KK_B1_Hadoop_WordCount.ipynb)
 4. Install Hadoop, Hive. Run queries, load bulk data [Hadoop Hive](https://github.com/prithwis/KKolab/blob/main/KK_B2_Hadoop_and_Hive.ipynb)
@@ -25,6 +25,8 @@ The Colab notebooks, python codes and datasets in this repository are used to te
 13. Access Cassandra as remote service from Datastax from Python. [Cassandra_DataStax_Python](https://github.com/Praxis-QR/BDSN/blob/main/Cassandra_DataStax_Python.ipynb)
 14. Build ML Pipelines with Spark for Customer Conversion. [ML_Pipeline_1_Customer_Conversion](https://github.com/Praxis-QR/BDSN/blob/main/ML_Pipeline_1_Customer_Conversion.ipynb)
 15. Build Reusable ML Pipelines with Spark for Diabetes Prediction using multiple ML algorithms. [ML_Pipeline_2_Diabetes_Prediction](https://github.com/Praxis-QR/BDSN/blob/main/ML_Pipeline_2_Diabetes_Prediction.ipynb)<br><br>
+## xterm Consoles 
+Console commands in Google Colab are generally used by prefixing them with ! ( exclaimation mark ) However an XTERM console with TTY support can be created with [colab-xterm](https://pypi.org/project/colab-xterm/). This is demonstrated in these two notebooks [MySQL Local Shell Pandas](https://github.com/Praxis-QR/RDWH/blob/main/RDWH_MySQL_Local_Shell_Pandas.ipynb) and [Cassandra Getting Started](https://github.com/prithwis/KKolab/blob/main/KK_E1_Cassandra_Getting_Started.ipynb)
 ***
 Examples of deploying ML models using Google Colab are available in the [Praxis DEMD repository](https://github.com/Praxis-QR/DEMD). This includes the use of [Python Flask WebApps](https://github.com/Praxis-QR/DEMD/blob/main/WebApps_V2_1_in_Colab.ipynb) that make ML models accessible through a public website.
 
