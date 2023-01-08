@@ -25,8 +25,8 @@ The Colab notebooks, python codes and datasets in this repository are used to te
 13. Access Cassandra as remote service from Datastax from Python. [Cassandra_DataStax_Python](https://github.com/Praxis-QR/BDSN/blob/main/Cassandra_DataStax_Python.ipynb)
 14. Build ML Pipelines with Spark for Customer Conversion. [ML_Pipeline_1_Customer_Conversion](https://github.com/Praxis-QR/BDSN/blob/main/ML_Pipeline_1_Customer_Conversion.ipynb)
 15. Build Reusable ML Pipelines with Spark for Diabetes Prediction using multiple ML algorithms. [ML_Pipeline_2_Diabetes_Prediction](https://github.com/Praxis-QR/BDSN/blob/main/ML_Pipeline_2_Diabetes_Prediction.ipynb)<br><br>
-## xterm Consoles 
-Console commands in Google Colab are generally used by prefixing them with ! ( exclaimation mark ) However an XTERM console with TTY support can be created with [colab-xterm](https://pypi.org/project/colab-xterm/). This is demonstrated in these two notebooks [MySQL Local Shell Pandas](https://github.com/Praxis-QR/RDWH/blob/main/RDWH_MySQL_Local_Shell_Pandas.ipynb) and [Cassandra Getting Started](https://github.com/prithwis/KKolab/blob/main/KK_E1_Cassandra_Getting_Started.ipynb)
+## xterm Access 
+Linux / Ubuntu commands in Google Colab are generally used by prefixing them with ! ( exclaimation mark ) However an XTERM console with TTY support can be created with [colab-xterm](https://pypi.org/project/colab-xterm/). This is demonstrated in these two notebooks [MySQL Local Shell Pandas](https://github.com/Praxis-QR/RDWH/blob/main/RDWH_MySQL_Local_Shell_Pandas.ipynb) and [Cassandra Getting Started](https://github.com/prithwis/KKolab/blob/main/KK_E1_Cassandra_Getting_Started.ipynb)
 ***
 Examples of deploying ML models using Google Colab are available in the [Praxis DEMD repository](https://github.com/Praxis-QR/DEMD). This includes the use of [Python Flask WebApps](https://github.com/Praxis-QR/DEMD/blob/main/WebApps_V2_1_in_Colab.ipynb) that make ML models accessible through a public website.
 
