@@ -31,7 +31,7 @@ Linux / Ubuntu commands in Google Colab are generally used by prefixing them wit
 Examples of deploying ML models using Google Colab are available in the [Praxis DEMD repository](https://github.com/Praxis-QR/DEMD). This includes the use of [Python Flask WebApps](https://github.com/Praxis-QR/DEMD/blob/main/WebApps_V2_1_in_Colab.ipynb) that make ML models accessible through a public website.
 
 ## Password matters
-In certain cases, passwords and other user credentials need to be supplied. While normal users may hardcode this into the notebook as a variable, a public notebook -- like the ones that are stored here -- cannot have them hardwired and visible. Hence in these cases, we have taken the strategy of storing the credentials as .py files in Google Drive. During usage, these Google Drive is mounted, the file copied into the VM and then the variables are _imported_. <br> <br>
+In certain cases, passwords and other user credentials need to be supplied. While normal users may hardcode this into the notebook as a variable, a public notebook -- like the ones that are stored here -- cannot have them hardwired and visible. Hence in these cases, we have taken the strategy of storing the credentials as .py files in Google Drive. During usage, these Google Drive is mounted, the file copied into the VM and then the variables are _imported_ . <br> <br>
 
 
 [Data Science @ Praxis Business School](https://praxis.ac.in)<br>
