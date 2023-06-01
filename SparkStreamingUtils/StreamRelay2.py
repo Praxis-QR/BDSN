@@ -1,3 +1,13 @@
+'''
+This code was written by chatGPT using these two prompts
+
+Restart from scratch. We need the code for a server written in python that continuously listens to a receiver TCP port and whenever it gets a message, it stores it in the queue. A client connects on second transmitter port and pulls out the messages from the queue. If there are no messages, then client gets nothing. However, if in the meantime, more messages arrive on the receiving port, the new messages are added to the queue so that the client can connect to the transmitter port and retrieve the same as well. 
+
+please modify the code just generated so that the client socket is kept open as long as the server is running. should not be closed
+
+'''
+
+
 import socket
 import threading
 import queue
