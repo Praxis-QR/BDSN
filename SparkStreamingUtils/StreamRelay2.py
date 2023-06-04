@@ -29,7 +29,7 @@ def transmit_messages(transmitting_socket):
         if not message_queue.empty():
             message = message_queue.get()
             client_socket.send(message.encode())
-            print("Transmitted ", message)
+            #print("Transmitted ", message)
 
 # Function to start the server
 def start_server():
