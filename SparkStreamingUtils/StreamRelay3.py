@@ -12,19 +12,26 @@ gets nothing. However, if in the meantime, more messages arrive on the receiving
 please modify the code just generated so that the client socket is kept open as
 long as the server is running. should not be closed
 
+Modified by ChatGPT to handle ctrl-C gracefully
+
 '''
 
 
 import socket
 import threading
 import queue
+import signal
+import sys
 
 # Create a queue to store incoming messages
 message_queue = queue.Queue()
 
+# Global flag to indicate if the exit process has started
+exit_flag = False
+
 # Thread function to handle incoming messages and add them to the queue
 def handle_messages(receiving_socket):
-    while True:
+    while not exit_flag:
         client_socket, _ = receiving_socket.accept()
         message = client_socket.recv(1024).decode()
         message_queue.put(message)
@@ -32,11 +39,22 @@ def handle_messages(receiving_socket):
 # Thread function to handle transmitting messages to the client
 def transmit_messages(transmitting_socket):
     client_socket, _ = transmitting_socket.accept()
-    while True:
+    while not exit_flag:
         if not message_queue.empty():
             message = message_queue.get()
             client_socket.send(message.encode())
-            #print("Transmitted ", message)
+            # print("Transmitted ", message)
+
+# Function to gracefully exit on Ctrl-C
+def graceful_exit(signum, frame):
+    global exit_flag
+    if not exit_flag:
+        exit_flag = True
+        print("\nThank you for using StreamRelay \n written by ChatGPT :-)")
+        sys.exit(0)
+
+# Register the signal handler for Ctrl-C
+signal.signal(signal.SIGINT, graceful_exit)
 
 # Function to start the server
 def start_server():
@@ -53,15 +71,19 @@ def start_server():
     print("Transmitting messages to clients on port 9000.")
 
     # Start a thread to handle incoming messages
-    message_thread = threading.Thread(target=handle_messages, args=(receiving_socket,))
+    message_thread = threading.Thread(target=handle_messages, args=(receiving_socket,), daemon=True)
     message_thread.start()
 
     # Start a thread to handle transmitting messages
-    transmit_thread = threading.Thread(target=transmit_messages, args=(transmitting_socket,))
+    transmit_thread = threading.Thread(target=transmit_messages, args=(transmitting_socket,), daemon=True)
     transmit_thread.start()
 
-    while True:
+    while not exit_flag:
         pass  # Keep the server running
+
+    # Clean up and close sockets
+    receiving_socket.close()
+    transmitting_socket.close()
 
 # Start the server
 start_server()
